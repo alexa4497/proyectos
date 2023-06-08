@@ -1,0 +1,84 @@
+
+h1{
+    color: blue;
+}
+
+a{
+    color: azure;
+}
+
+
+
+#carousel{
+    width: 1000px;
+    height: 200px;
+    margin:auto;
+    margin-bottom: 450px;
+    
+}
+
+
+#relleno{
+    margin: auto;
+    height: 50px;
+}
+
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+}
+
+#div_canciones{
+    background-color:#7E09AD;
+    box-shadow: 3px 3px 30px 3px #B200FA;
+}
+  
+
+.img_canciones{
+    width: 100px;
+    height: 100px;
+}
+
+
+#formulario_caja{
+    align-items: center;
+    margin-right: 300px;
+    margin-left: 400px;
+    
+}
+
+.text_form{
+    color: aliceblue;
+}
+
+#div_registro{
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    background-color: #7E09AD;
+    box-shadow: 1px 1px 10px 1px #B200FA;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#buscador{
+    margin-left: 550px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+}
+
+#foin{
+    margin-top: 0px;
+}
+
+#tabla_canciones{
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}

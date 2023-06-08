@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>desarrollo web</title>
+  <link rel="shortcut icon" href="imagenes\caja.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--barra navegacion-->
+
+  <div class="header">
+
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid ">
+
+        <a class="navbar-brand" href="#">
+          <img src="imagenes\caja.png" alt="" style="width: 2rem; height: 2rem; margin-right: 1rem;">learning</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">learning </h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="temario.html">Temario completo</a></li>
+
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="back_end.html">Back end</a></li>
+                  <li><a class="dropdown-item" href="front_end.html">Front end</a></li>
+                  <li><a class="dropdown-item" href="#">Bases de datos</a></li>
+                  <li><a class="dropdown-item" href="python.html">Python</a></li>
+                </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+<!--cpntent 1 , inicio-->
+
+  <div id="content1">
+    <h1 id="title">
+      ¡Conviertete en un desarrollador web!, todo lo que tienes que saber para desarrollar paginas web
+
+    </h1>
+
+    <div id="comenzar">
+      <a href="temario.html"><button style="width: 100%; font-size: 300%; ;" type="button" class="btn btn-outline-danger rounded-pill">comenzar</button></a>
+    </div>
+  </div>
+
+  <!--contenido 2 , que es-->
+
+
+  <div id="content2">
+      
+      <div id="info" class="rounded-5 border border-warning border-2">
+        
+        <div class="d-flex flex-column mb-3">
+          <div class="p-2">
+            <h2 style="font-size: 250%;">
+            ¿Que es learning y cual es su objetivo?
+             </h2>
+          </div>
+          <div class="p-2">
+            <p style="font-size: 130%;">
+              learning es una plataforma de aprendizaje sobre desarrollo web completamente gratuita don encontraras la nformacion completa para
+              convertirte en un desarrollador web avanzado
+            </p>
+          </div>
+        </div>
+
+      </div>
+    
+  </div>
+
+  <!--que aprenderas , content 3-->
+
+
+  <div id="content3">
+    
+    <div id="apre">
+      <h2 style="font-size: 250%;">¿Que aprenderas en learning?</h2>
+    </div>
+
+    <div id="temario">
+      <div class="container text-center">
+        <div class="row g-2">
+          <div class="col-6 border border-black rounded-4  bg-black bg-opacity-50" style="width: 45%; height: 20rem; margin-right: 4rem;">
+            <div class="p-3 " >
+              <a href="" class="link-info" ><h3>back end</h3></a>
+              <div class="descri">
+                <p>
+                  aprenderas como funciona el corazon de una pagina web,que hay detras de lo que ve el ususario, como funciona y como aprender
+                  a mejorarlo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 border border-light rounded-4  bg-light bg-opacity-50" style="width: 45%; height: 20rem;" >
+            <div class="p-3"  >
+              <a href="" class="link-info"><h3>font end</h3></a>
+              <div class="descri">
+                <p> exploraras como diseñar, desarrollar y planear la parte visible con la cual el ususario interactua,colores,formas y todos 
+                  los medios para la creacion de una interfaz web
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 border border-light rounded-4  bg-light bg-opacity-50" style="width: 45%; height: 20rem; margin-right: 4rem;">
+            <div class="p-3" >
+              <a href="" class="link-info"> <h3>bases de datos</h3></a>
+              <div class="descri">
+                <p>
+                  comprenderas como recompilar informacion y almacenarla para la comprension de los usuarios , datos y referencias para nuestra pagina web
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 border border-black rounded-4 bg-black bg-opacity-50" style="width: 45%; height: 20rem; ">
+            <div class="p-3">
+              <a href="" class="link-info"><h3> python</h3></a>
+              <div class="descri">
+                <p>un exelente lenguaje de programacion para comenzar con el desarrollo web, sencillo , comodo y para diferentes usos, aprenderas
+                  sobre este lenguaje ,entenderas su logica la cual te ayudara al desarrollo de paginas web
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!--content 4, listo?-->
+
+  <div id="content4">
+
+    <div id="con4">
+       <h1 id="title" >
+          ¿listo para comenzar a desarrollar paginas web?
+       </h1>
+    </div>
+    <div>
+
+      <div id="comenzar2" >
+        <a href="temario.html"><button style="width: 100%; font-size: 300%; ;" type="button" class="btn btn-outline-danger rounded-pill">comenzar</button></a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- footer-->
+
+  <div id="footer">
+    <div class="fooinfo">
+      <img src="imagenes\caja.png" alt="" height="100rem">
+      <div class="d-flex" style="height: 100px; margin-left: 2rem; background-color: azure; margin-right: 2rem;">
+        <div class="vr"></div>
+      </div>
+      <div style="color: azure;">
+        <h4>derechos reservados </h4>
+        <p>correo contacto : alexa.carolina4497@gmail.com</p>
+        <p>cell contact: 3157713659</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="var.js"></script>
+</body>
+
+</html>
